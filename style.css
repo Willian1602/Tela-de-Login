@@ -1,0 +1,123 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: url("./Images/BG.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    font-family: "Poppins", serif;
+    min-height: 100vh;
+}
+
+.Container {
+    display: flex;
+    flex-direction: column;
+    border: 1.5px solid #9ba8ab;
+    border-radius: 10px;
+    background: rgba(0, 0, 0, .2);
+    backdrop-filter: blur(20px);
+    width: 80vw;
+    max-width: 380px;
+    padding: 15px 25px;
+}
+
+.Container-Title {
+    display: flex;
+    justify-content: center;
+    color: #fff;
+    font-weight: 700;
+}
+
+.Container-Input {
+    position: relative;
+}
+
+.Container-Input input {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    border: 1.5px solid #9ba8ab;
+    outline: none;
+    border-radius: 10px;
+    padding: 10px 15px;
+    margin-top: 20px;
+}
+
+.Container-Input-email i {
+    position: absolute;
+    right: 20px;
+    top: 30px;
+    color: #9ba8ab;
+}
+
+.Container-Input-password i {
+    position: absolute;
+    right: 20px;
+    top: 88px;
+    color: #9ba8ab;
+}
+
+.Container-NewPassword a {
+    text-decoration: none;
+    font-size: 12px;
+    font-weight: 500;
+    color: #fff;
+    transition: color .2s linear ;
+    padding-left: 10px;
+}
+
+.Container-NewPassword a:hover {
+    color:#9ba8ab;
+}
+
+.Container-btn {
+    display: flex;
+    width: 100%;
+    margin-top: 10px;
+    align-items: center;
+    justify-content: center;
+}
+
+.Container-btn button {
+    padding: 10px 30px;
+    border: none;
+    border-radius: 10px;
+    transition: .2s linear;
+}
+
+.Container-btn button:hover {
+    background-color: #30833b;
+    color: #fff;
+    cursor: pointer;
+}
+
+.Container-NewUser {
+    display: flex;
+    justify-content: center;
+    padding: 10px 0px;
+}
+
+.Container-NewUser p {
+    color: #fff;
+    font-size: 12px;
+    font-weight: 300;
+}
+
+.Container-NewUser a {
+    color: #fff;
+    font-size: 12px;
+    font-weight: 500;
+    text-decoration: none;
+    transition: color .2s linear ;
+}
+
+.Container-NewUser a:hover {
+    color:#9ba8ab;
+}
